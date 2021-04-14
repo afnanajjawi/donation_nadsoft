@@ -1,0 +1,665 @@
+header{
+  padding-top: 18px;
+  padding-bottom: 18px;
+  max-height: 95px;
+}
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+#logo{
+text-align: right;
+    padding: 0px;
+}
+
+a.donate {
+    margin-top: 4px;
+    float: left;
+    width: 116px;
+    height: 43px;
+    background: #8DC640 0% 0% no-repeat padding-box;
+    border-radius: 0px 88px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 20px;
+    color: #fff;
+}
+
+a.donate:hover {
+  border: 2px solid #8DC640;
+  background: transparent;
+  color: #8DC640;
+}
+
+a.get-involved {
+    width: 145px;
+    height: 43px;
+    border: 2px solid #8DC640;
+    border-radius: 0px 88px;
+    float: left;
+    text-align: center;
+    color: #8DC640;
+    line-height: 40px;
+    margin-top: 4px;
+}
+
+
+a.get-involved:hover {
+  background: #8DC640;
+  color: #fff;
+  text-decoration: none;
+}
+
+#leftheaderpart{
+  padding-left: 0px;
+}
+
+li.nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-nav{
+  width: 100%;
+  padding-right: 3.1rem;
+}
+.nav-link{
+  color: #707070;
+  font-size:20px;
+}
+
+.nav-link:hover , .nav-item.active .nav-link{
+  color: #8DC640
+}
+
+#content{
+  min-height: 600px;
+}
+
+
+.jumbotron{
+  background: #4F4F4F 0% 0% no-repeat padding-box;
+  border-radius: 0px;
+  padding-bottom: 1rem;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #939393;
+  font-size: 19px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #939393;
+  font-size: 19px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #939393;
+  font-size: 19px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #939393;
+  font-size: 19px;
+}
+
+
+#footer-design{
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#footer-logo{
+  top: 2500px;
+  left: 634px;
+  width: 98px;
+  height: 97px;
+}
+
+#footer-design::before{
+    content: "";
+    background: url(../img/Path_5521.svg);
+    height: 93px;
+    width: 43%;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+#footer-design::after{
+     content: "";
+    background: url(../img/Path_5522.svg);
+    height: 93px;
+    width: 43%;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+.footerul{
+  list-style: none;
+  width: 100%;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footerul li{
+  display: inline-block;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.footerul li a{
+  color: #FFFFFF;
+  font-size: 20px;
+  opacity: 0.65;
+}
+
+
+
+.footerul li:nth-child(8) a , .footerul li:nth-child(7) a{
+  color: #8DC640;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+
+.footerul li a:hover{
+  opacity: 1;
+}
+
+.socialfooter ul{
+  list-style: none;
+  width: 100%;
+  padding-right: 7rem;
+  padding-left: 7rem;
+  text-align: right;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.socialfooter li{
+  display: inline-block;
+  padding-left: 2.4rem;
+}
+
+#footer-copy-right div:nth-child(1){
+    text-align: right;
+    color: #939393;
+    font-size: 19px;
+}
+
+#footer-copy-right div:nth-child(2){
+  text-align: left;
+      color: #939393;
+    font-size: 19px;
+}
+
+#nadsoft-colour-full{
+  color: #fff;
+  background: linear-gradient(to right, #E94150, #4EA9E0 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-weight: bold; */
+  float: left;
+  line-height: 28px;
+  margin-right: 5px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 19px;
+}
+
+#subscribe{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  color: #707070;
+  font-size: 30px;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+#subscribe h4{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#subscribe p{
+
+  color: #939393;
+  font-size: 23px;
+  width: 100%;
+    text-align: center;
+}
+
+#subscribeform{
+
+    width: 100%;
+    text-align: center;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    direction: rtl;
+    text-align: right;
+}
+
+#subscribeform input{
+    background: #E8E8E8 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    box-shadow: none !important;
+    outline: none;
+    border: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+	  padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 53px;
+	    font-size: 19px;
+    width: 35%;
+	/*
+	font-family: 'din-next-lt-w23-regular';*/
+}
+
+#subscribeform #btnsubscribe{
+    background: #8DC640 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    color: #FFFFFF;
+
+    font-size: 19px;
+    /* padding: 27px; */
+    width: 211px;
+}
+
+#btnsubscribe:hover{
+	color: #8DC640 !important;
+	background:transparent !important;
+	border:2px solid #8DC640 !important;
+	 border-radius: 27px !important;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+
+.main-title{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8dc640+0,ffffff+100 */
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+1,ffffff+1,8dc640+100 */
+      background: #ffffff; /* Old browsers */
+      background: -moz-linear-gradient(-45deg,  #8dc640 1%, #8dc640 1%, #ffffff 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg,  #8dc640 1%,#8dc640 1%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg,  #8dc640 1%,#8dc640 1%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8dc640',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+      /* box-shadow: 0px 0px 10px #26131329; */
+      border-radius: 0px 0px 0px 200px;
+
+      font-weight: bold;
+      background-size: 100% 100%;
+      padding: 0px;
+      width: 92%;
+      text-align: right;
+      right: 0;
+      /*
+        height: 169px;*/
+      /* box-shadow: 0px 0px 21px #00000029; */
+      border: 0px !important;
+      background-size: contain;
+      background-position: r0px 0px;
+      padding-right: 12.3rem;
+      padding-top: 1rem;
+      padding-bottom: 0.6rem;
+      color: #fff;
+      font-size: 27px;
+      margin-bottom: 4rem;
+}
+
+.main-title span{
+    color: #8dc640;
+    font-size: 33px;
+    float: right;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
+.main-title2{
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8dc640+0,ffffff+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+1,ffffff+1,8dc640+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffffff 1%, #ffffff 1%, #8dc640 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffffff 1%,#ffffff 1%,#8dc640 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(0deg,  #ffffff 1%,#ffffff 1%,#8dc640 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8dc640',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    /* box-shadow: 0px 0px 10px #26131329; */
+    border-radius: 0px 0px 0px 200px;
+   color: #fff;
+    font-weight: bold;
+    background-size: 100% 100%;
+    padding: 0px;
+
+    text-align: right;
+    right: 0;
+    height: auto;
+    /* box-shadow: 0px 0px 21px #00000029; */
+    border: 0px !important;
+    background-size: contain;
+    background-position: r0px 0px;
+    padding-right: 12.3rem;
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+
+    font-size: 25px;
+        margin-bottom: 4rem;
+            width: 87.5%;
+}
+
+.main-title2 span{
+    color: #fff;
+    font-size: 33px;
+    float: right;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.date{
+    color: #939393 !important;
+    font-size: 20px !important;
+     margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 0px;
+    float: right;
+	line-height: 28px;
+
+
+}
+
+.date:before{
+  content: "";
+  width: 21px;
+height: 21px;
+background: transparent url('../images/watch.png') 0% 0% no-repeat padding-box;
+    float: right;
+    margin-left: 10px;
+	margin-top: 1px;
+}
+
+
+bold{
+    font-weight: bold;
+
+    display: inline-block;
+	width:100%;
+}
+
+p{
+  line-height: 40px;
+}
+
+
+ .navbar-toggler-icon{
+	background: #8DC640;
+ }
+
+ .navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    width: 100%;
+    background: #8DC640;
+    text-align: center;
+    color: #fff;
+}
+
+
+button.navbar-toggler {
+    width: 100%;
+    background: #8DC640;
+    color: #fff;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    font-size: 23px;
+    height: 40px;
+    overflow: hidden;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+div#collapsibleNavbar {
+    border: 0px solid #8DC640;
+    border-radius: 5px;
+}
+
+
+#innercontent ul li{
+	    list-style: disc;
+    color: #8DC640;
+}
+
+#innercontent ul li a{
+	    list-style: disc;
+    color: #8DC640;
+}
+
+#pagination ul{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	list-style:none;
+	    margin-bottom: 3rem;
+	margin-top: 1rem;
+}
+
+#pagination ul li{
+  background: #F5F5F5;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+
+    height: 48px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: top;
+    line-height: 48px;
+}
+.page-item.active .page-link  , .page-item.disabled .page-link , .page-item:hover .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    background: #8DC640 0% 0% no-repeat padding-box;
+	font-size: 22px;
+    border: 0px;
+
+	border-radius: 10px;
+    max-width: 100%;
+    height: 100%;
+	line-height: 38px;
+}
+#pagination ul li a:hover{
+    z-index: 3;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    background: #8DC640 0% 0% no-repeat padding-box;
+	font-size: 22px;
+    border: 0px;
+
+	border-radius: 10px;
+    max-width: 100%;
+    height: 100%;
+}
+
+#pagination ul li a{
+    color: #939393;
+    font-size: 22px;
+    display: inline-block;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: 0px;
+	line-height: 38px;
+}
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ @media (max-width: 576px) {
+
+
+header{
+	max-height: initial;
+}
+
+#logo a img{
+	    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.footerul{
+	    padding: unset;
+}
+
+.footerul li{
+	    display: inline-block;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: auto;
+    text-align: center;
+}
+.socialfooter ul{
+	width: 100%;
+    padding-right: unset;
+    padding-left: unset;
+}
+
+.socialfooter li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#footer-copy-right div:nth-child(1) , #footer-copy-right div:nth-child(2){
+	text-align: center;
+}
+
+#leftheaderpart {
+    padding-left: auto;
+    text-align: center;
+}
+
+a.get-involved , a.donate{
+	float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-title{
+padding-right: inherit;
+    border-radius: 0px;
+    text-align: right;
+    height: auto;
+    margin: auto;
+    padding-top: 8px !important;
+    display: inline-block;
+    width: 100%;
+	padding-left:10px;
+	padding-right:10px;
+}
+ .main-title span{
+	 margin-bottom: 0;
+    line-height: 40px;
+    margin-top: 10px;
+ }
+
+.formcontact{
+	height: unset;
+    top: auto;
+    position: unset;
+}
+#subscribeform {
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#subscribeform input{
+	width: 100%;
+	    max-width: 100%;
+	 margin-left: auto;
+		    margin-right: auto;
+}
+
+#nadsoft-colour-full{
+	    float: initial;
+}
+#leftheaderpart {
+   padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) {
+
+}
